@@ -1,0 +1,202 @@
+@media (max-width:600px){
+    navbar{
+        width: fit-content;
+        flex-flow: wrap ;
+        justify-content: end;
+    }
+    .judul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .judul  a{
+        font-size: 0.9em ;
+    }
+    .judul .fas{
+        display: block;
+        width: 100%;
+        color: white;
+        margin-right: 20px;
+    }
+    .hidden{
+        display: none;
+    }
+    .list-navbar ul{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: end;
+    }
+    .list-navbar li {
+        margin:10px 8px ;
+    }
+    .hero .list-hero .gambar img{
+        width: 100%;
+        margin-left: 10px;
+        padding-top: 220px;
+    }
+    .list-hero{
+        flex-flow: wrap;
+    }
+    .list-hero .text{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+    .gambar img{
+        width: 70%;
+    }
+    .content h1{
+        width: fit-content;
+    }
+
+    .aside{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    table{
+        margin: 0 auto;
+    }
+    .gambar p{
+        width: 100%;
+    }
+
+    .content{
+        height:fit-content;
+    }
+    .action{
+        width: fit-content;
+    }
+    
+    .list{
+        flex-flow: wrap;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .list img{
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .list p{
+        width: 95%;
+        text-align: justify;
+    }
+
+    .cards{
+        height: fit-content;
+        padding-top: 25px;
+    }
+    .cards h1{
+        width: fit-content;
+    }
+    .container .section{
+        width:100%;
+    }
+    .container .section{
+        height: fit-content;
+        margin-top: 10px;
+    }
+    .section img{
+        width: 190px;
+    }
+    .section .maps{
+        display: none;
+    }
+
+
+    .watermark{
+        display: none;
+    }
+    .copyright{
+        margin: 0 auto;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:1000px) {
+        navbar{
+            width: 100%;
+            
+        }
+        .list-navbar ul li a{
+            margin: auto 15px;
+        }
+        .list-hero{
+            flex-flow: wrap;
+        }
+        .list-hero .gambar img{
+            width: fit-content;
+            margin-left: 20px;
+            padding-top: 150px;
+        }
+        .hero .text{
+            width: fit-content;
+            margin-top: 50px;
+        }
+
+        .hero{
+            height: fit-content;
+        }
+        .aside p{
+            width: fit-content;
+            text-align: center;
+        }
+        article{
+            width: 100%;
+        }
+        table{
+            margin: 0 auto ;
+        }
+
+
+        .action{
+            width: fit-content;
+        }
+        .list img{
+            width: 20vh;
+        }
+        
+
+
+        .content{
+            height:fit-content;
+        }
+        .content h1{
+            width: fit-content;
+        }
+
+        .cards{
+            height: auto;
+            padding-top: 50px;
+        }
+        .container .section{
+            width: 95%;
+            height: fit-content;
+            margin-top: 15px;
+        }
+        .section .fab, .section .fas,.section .far{
+            font-size: 1.2em;
+            margin-right: 10px ;
+            margin-top: 10px;
+        }
+
+        .aside .gambar img{
+            width: 60%;
+        }
+        
+}
+@media(min-width:1000px) {
+    
+    .section img{
+        width: 90%;
+    }
+    article .gambar{
+        margin: 0 auto;
+    }
+    table{
+        margin: 0 auto;
+    }
+}
